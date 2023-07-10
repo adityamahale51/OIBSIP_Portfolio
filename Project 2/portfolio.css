@@ -1,0 +1,139 @@
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: rgb(0, 0, 0);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    nav{
+        width: 100%;
+        background-color: tomato;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.15% 3%;
+        letter-spacing: 0.1em;
+        cursor: pointer;
+    }
+    .container nav img{
+        height: 4%;
+        width: 5%;
+        margin-left: 0.75%;
+    }
+    ul{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 8%;
+    }
+    ul li{
+        list-style: none;
+        padding: 2%;
+    }
+    ul li a{
+        text-decoration: none;
+        color: aqua;
+        font-size: 1.50em;
+    }
+    ul li a:hover{
+        color: black;
+    }
+    .button{
+        letter-spacing: 0.1em;
+        font-size: 1.40em;
+        padding: 0.70%;
+        background-color: pink;
+        color: white;
+        border-radius: 5%;
+
+    }
+    button:hover{
+        background-color: greenyellow;
+
+    }
+    .content h1{
+        font-weight: bolder;
+        word-spacing: 0.11em;
+        letter-spacing: 0.03em;
+        margin-top: 3.75%;
+        margin-left: 12%;
+        margin-bottom: 2%;
+        width: 35%;
+        height: 10%;
+        font-size: 4em;
+        color: white;
+    }
+    .content span{
+        font-family: 'Times New Roman', Times, serif;
+        color:rgb(0, 255, 68)
+(9, 186, 48);
+    }
+    .content p{
+        font-weight: lighter;
+        margin-left: 12%;
+        margin-bottom: 3%;
+        font-size: 1.25em;
+        color: aqua;
+        word-spacing: 0.17em;
+        letter-spacing: 01.em;
+    }
+    .btn1{
+        margin-left: 12%;
+        font-size: 1.40em;
+        padding: 0.75%;
+        letter-spacing: 0.1em;
+        background-color: springgreen;
+        color: white;
+        border-top-left-radius: 1.50em;
+        border-bottom-left-radius: 1.50em;
+        border-top-right-radius: 1.50em;
+        border-bottom-right-radius: 1.50em;
+
+    }
+    .btn1:hover{
+        background-color: violet;
+    }
+    .btn2{
+        margin-left: 3%;
+        font-size: 1.40em;
+        padding: 0.75%;
+        letter-spacing: 0.1em;
+        background-color: springgreen;
+        color: white;
+        border-top-left-radius: 1.50em;
+        border-bottom-left-radius: 1.50em;
+        border-top-right-radius: 1.50em;
+        border-bottom-right-radius: 1.50em;
+
+    }
+    .btn1:hover{
+        background-color: violet;
+    }
+    .content img{
+        height: 55%;
+        width: 35%;
+        position: absolute;
+        top: 30%;
+        right: 10%;
+    }
+    .container1{
+        max-width: 345px; padding: 10px; border-radius: 5px; margin-left: 30px;
+        align-items: center;
+        background-color: aqua;
+        border-radius: 10px;
+        padding: 30px 90px;
+        border: solid; margin-left: 220px; margin-right: 220px;
+    }
+    .form-group {
+            margin-bottom: 20px;
+        }
+    .a1, .a2{
+        align-items: center;
+                background-color: aqua;
+                border-radius: 10px;
+                padding: 30px 60px;
+                border: solid; margin-left: 220px; margin-right: 220px;
+    }
